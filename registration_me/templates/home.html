@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home page</title>
+<style>
+form
+        {
+    width: 60%;
+    background-color: white;
+    color: lime;
+    padding: 20px;
+        }
+head
+{
+ font-size: 26px;
+ color: darkblue;
+}
+nav-content
+{
+  font-style: oblique;
+  font-size: 14px;
+}
+
+</style>
+</head>
+<body>
+ <div style="background-color: grey">
+    <header>
+        <img src="" style="height: 1px; width: 1px">
+        <h3>
+                         <a href="home.html" class="nav-content"> Home</a>
+                         <a href="login.html" class="nav-content">Login</a>
+                         <a href="courses.html" class="nav-content"> Courses</a>
+                         <a href="register.html" class="nav-content">Register</a>
+        </h3>
+    </header>
+ </div>
+<!---
+<h2>Registration Form</h2>
+    <form method="post">
+
+        Add form fields here
+        <input type="submit" value="Register">
+    </form>
+-->
+    <h2 class="head">Registration Form</h2>
+    <form method="post">
+        {% csrf_token %}
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Additional fields -->
+        <!--
+        <label for="first_name">First Name:</label><br>
+        <input type="text" id="first_name" name="first_name"><br><br>
+
+        <label for="last_name">Last Name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br><br>
+        -->
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
