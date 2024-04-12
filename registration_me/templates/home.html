@@ -3,39 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <title>home page</title>
-<style>
-form
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <!--   <style>
+        #form
         {
-    width: 60%;
-    background-color: white;
-    color: lime;
-    padding: 20px;
+            width: 60%;
+            background-color: white;
+            color: lime;
+            padding: 20px;
         }
-head
-{
- font-size: 26px;
- color: darkblue;
-}
-nav-content
-{
-  font-style: oblique;
-  font-size: 14px;
-}
-
+        #head
+        {
+            font-size: 26px;
+            color: darkblue;
+        }
+        #nav-content
+        {
+            font-style: oblique;
+            font-size: 20px;
+        }
 </style>
-</head>
-<body>
- <div style="background-color: grey">
-    <header>
+        <div style="background-color: grey">
+        <header>
         <img src="" style="height: 1px; width: 1px">
         <h3>
-                         <a href="home.html" class="nav-content"> Home</a>
-                         <a href="login.html" class="nav-content">Login</a>
-                         <a href="courses.html" class="nav-content"> Courses</a>
-                         <a href="register.html" class="nav-content">Register</a>
+        <a href="home.html" class="nav-content"> Home</a>
+        <a href="login.html" class="nav-content">Login</a>
+        <a href="courses.html" class="nav-content"> Courses</a>
+        <a href="register.html" class="nav-content">Register</a>
         </h3>
-    </header>
- </div>
+        </header>
+        </div>  -->
+<nav class="navbar navbar-expand-lg  navbar-light bg-light sticky-top py-1">
+    <div class="container-fluid">
+        <a class="navbar-brand d-lg-none" href="#">
+            <img src="" alt="Obilisk" style="width: 80px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <!-- Nav bar ya hapo juu-->
+                <ul class="navbar-nav justify-content-center flex-grow-1 py-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://localhost:63342/Manhwa%20Fandom/kjkgjfhg.html?_ijt=emfdodneqq86l5jtb4299qcdue&_ij_reload=RELOAD_ON_SAVE">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3gq3knryEAxWGTqQEHZmkDdYQFnoECDMQAQ&url=https%3A%2F%2Fpoki.com%2Fen%2Fracing&usg=AOvVaw11SjYmcErx68JZf2RRnUm8&opi=89978449">Racing</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi8usjFmryEAxUdi_0HHZ3kBdcQFnoECA0QAQ&url=https%3A%2F%2Fpoki.com%2Fen%2Fsimulation&usg=AOvVaw0j0sto5vBHDPKvwx0Gwh6P&opi=89978449">Simulation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiHwN-xnryEAxXbT6QEHTRBBBoQFnoECA0QAQ&url=https%3A%2F%2Fwww.mmorpg.com%2Fgames-list&usg=AOvVaw2NWAuA9QX2Tt4TWT59D5lj&opi=89978449">MMORPG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjS8ofInryEAxULV6QEHVxQC40QFnoECA8QAQ&url=https%3A%2F%2Fgamaverse.com%2Fsandbox%2F&usg=AOvVaw3qCbYwUmN7o9QCtT9tiuxi&opi=89978449">Open World</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Programs
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="" target="_blank"></a></li>
+                            <li><a class="dropdown-item" href="" target="_blank"></a></li>
+                            <li><a class="dropdown-item" href="" target="_blank"></a></li>
+                            <li><a class="dropdown-item" href="" target="_blank"></a></li>
+                            <li><a class="dropdown-item" href="" target="_blank"></a></li>
+                            <li><a class="dropdown-item" href="#" target="_blank"></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="">jhgfd</a>
+                    </li>
+                    <li class="nav-item d-none">
+                        <a class="nav-link " href="">Requests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+</head>
+<body>
 <!---
 <h2>Registration Form</h2>
     <form method="post">
@@ -44,17 +103,7 @@ nav-content
         <input type="submit" value="Register">
     </form>
 -->
-    <h2 class="head">Registration Form</h2>
-    <form method="post">
-        {% csrf_token %}
-        <label for="username">Username:</label><br>
-        <input type="text" id="username" name="username"><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
 
         <!-- Additional fields -->
         <!--
@@ -64,8 +113,6 @@ nav-content
         <label for="last_name">Last Name:</label><br>
         <input type="text" id="last_name" name="last_name"><br><br>
         -->
-
-        <input type="submit" value="Register">
-    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

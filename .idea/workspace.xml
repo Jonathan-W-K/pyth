@@ -4,38 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d00aa67a-cec5-4a08-b5c7-b7da7357812a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/registration_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/templates/courses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_me/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_project/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_project/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_project/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registration_project/wsgi.py" afterDir="false" />
+    <list default="true" id="d00aa67a-cec5-4a08-b5c7-b7da7357812a" name="Changes" comment="latest update atleast as far as i have gone for now">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/templates/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,22 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="registration_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="registration_project" />
@@ -131,8 +107,25 @@
       <workItem from="1712830530392" duration="248000" />
       <workItem from="1712830927877" duration="56000" />
       <workItem from="1712831066343" duration="234000" />
-      <workItem from="1712831404104" duration="358000" />
+      <workItem from="1712831404104" duration="1163000" />
+      <workItem from="1712898593600" duration="217000" />
+      <workItem from="1712899136365" duration="31000" />
+      <workItem from="1712899222549" duration="477000" />
+      <workItem from="1712899899717" duration="1278000" />
+      <workItem from="1712901361906" duration="1037000" />
+      <workItem from="1712902473428" duration="426000" />
+      <workItem from="1712903072033" duration="264000" />
+      <workItem from="1712903374893" duration="233000" />
     </task>
+    <task id="LOCAL-00001" summary="latest update atleast as far as i have gone for now">
+      <option name="closed" value="true" />
+      <created>1712831888593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712831888593</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,5 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="latest update atleast as far as i have gone for now" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest update atleast as far as i have gone for now" />
   </component>
 </project>
