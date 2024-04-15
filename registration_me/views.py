@@ -1,23 +1,27 @@
-from django.http import HttpResponse
 from django.shortcuts import render
+from django.http import HttpResponse
+from register.html import recordForm
+from .models import Record
 
 
-def register(request):
+def add_record(request):
     if request.method == 'POST':
-        # Logic to process registration form data
-        return HttpResponse("Registration successful!")
-    else:
-        # Render registration form template
-        return render(request, 'registration/register.html')
+        studentname = request.POST.get('studentname')
+        email = request.POST.get('email')
+        password = request.POST.get('password')
+        phone = request.POST.get('phone')
+        age = request.POST.get('age')
 
-def login(request):
-    if request.method == 'POST':
-        username = request
-        password =""
-        return HttpResponse("Login successful!")
-    else:
-        return render(request, 'login/login.html')
+        obj = Record(studentname=studentname, email=email, password=password, phone=phone, age=age)
+        obj.save()
+        data = recordForm()
+        context = {'data': data}
+        return HttpResponse('Record added successfully!')
 
-def home(request):
-    if request.method == 'POST':
-        return "click here" <a href="home.html">here</a>
+def edit_record(request,id):
+    data = Record.objects.get(id=id)
+    context = {'data': data}
+    return render(request, 'register.html',context)
+
+    records = Record.objects.all()  # Retrieve all records
+    return render(request, 'register.html', {'form': form, 'records': records})

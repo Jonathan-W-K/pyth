@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d00aa67a-cec5-4a08-b5c7-b7da7357812a" name="Changes" comment="latest update atleast as far as i have gone for now">
+      <change afterPath="$PROJECT_DIR$/registration_me/templates/table by the side.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration_me/templates/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/courses.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration_me/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration_me/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_me/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/registration_me/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +28,17 @@
       <list>
         <option value="HTML File" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -48,9 +62,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "DefaultHtmlFileTemplate": "HTML File",
+    "Django tests.Test: registration_me.tests.YourAppTests.executor": "Debug",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,10 +74,32 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django tests.Test: registration_me.tests.YourAppTests">
+    <configuration name="Test: registration_me.tests.YourAppTests" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="registration_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="registration_me.tests.YourAppTests" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="registration_project" type="Python.DjangoServer" factoryName="Django server">
       <module name="registration_project" />
       <option name="ENV_FILES" value="" />
@@ -86,6 +124,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: registration_me.tests.YourAppTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -115,7 +158,13 @@
       <workItem from="1712901361906" duration="1037000" />
       <workItem from="1712902473428" duration="426000" />
       <workItem from="1712903072033" duration="264000" />
-      <workItem from="1712903374893" duration="233000" />
+      <workItem from="1712903374893" duration="286000" />
+      <workItem from="1711959086416" duration="3000" />
+      <workItem from="1713169497502" duration="76000" />
+      <workItem from="1713169595799" duration="156000" />
+      <workItem from="1713169807165" duration="2018000" />
+      <workItem from="1713171885670" duration="2236000" />
+      <workItem from="1713174250110" duration="3139000" />
     </task>
     <task id="LOCAL-00001" summary="latest update atleast as far as i have gone for now">
       <option name="closed" value="true" />
@@ -125,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712831888593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="latest update atleast as far as i have gone for now">
+      <option name="closed" value="true" />
+      <created>1712903634714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712903634714</updated>
+    </task>
+    <task id="LOCAL-00003" summary="latest update atleast as far as i have gone for now">
+      <option name="closed" value="true" />
+      <created>1712903644823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712903644823</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,5 +200,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="latest update atleast as far as i have gone for now" />
     <option name="LAST_COMMIT_MESSAGE" value="latest update atleast as far as i have gone for now" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/registration_project$Test__registration_me_tests_YourAppTests.coverage" NAME="Test: registration_me.tests.YourAppTests Coverage Results" MODIFIED="1713176092277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

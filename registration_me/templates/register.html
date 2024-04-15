@@ -4,33 +4,94 @@
     <meta charset="UTF-8">
     <title>registration</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+  /* Some basic styling for demonstration */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+</style>
 </head>
 <body>
-    <div >
-      <div style="padding-left: 100px">
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-      </div>
-      <div style="padding-left: 100px">
-          <label for="username">Username:</label><br>
-          <input type="text" id="username" name="username"><br>
-      </div>
-      <div>
-          <label for="fname">First name:</label><br>
-          <input type="text" id="fname" name="fname">
-      </div>
-      <div>
-           <label for="lname">Last name:</label><br>
-           <input type="text" id="lname" name="lname"><br>
-      </div>
-      <div style="padding-left: 100px">
-          <label for="password">Password:</label><br>
-          <input type="password" id="password" name="password"><br>
-      </div>
-       <div class="container-fluid-m: 40%">
-        <input type="submit" value="Submit">
-      </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<div>
+    <form id="recordForm" method="POST" action="/addstudent/">
+        <label for="studentname">Name:</label><br>
+        <input type="text" id="studentname" name="studentname" required><br><br>
+        <label for="email">Email:</label><br><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label><br>
+           <input type="password" id="password" name="password" required><br><br>
+        <label for="phone">Contact:</label><br>
+        <input type="int" id="phone" name="phone"><br><br>
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age" required><br><br>
+        <button type="button" onclick="addRecord()">Record</button><br><br>
+        <button type="button" onclick="deleteRecord()">Delete</button><br><br>
+        <button type="button" onclick="edit()">Edit</button>
+    </form>
+</div>
+<div></div>
+<div class="ret">
+    <table id="recordTable">
+        <thead>
+        <tr>
+            <th>Student name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>phone</th>
+            <th>Age</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Records will be added here -->
+        </tbody>
+    </table>
+
+    <script>
+        function addRecord() {
+            // Get form values
+            let studentname = document.getElementById("studentname").value;
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+            let phone = document.getElementById("phone").value;
+            let age = document.getElementById("age").value;
+
+            // Create a new row
+            let table = document.getElementById("recordTable").getElementsByTagName('tbody')[0];
+            let newRow = table.insertRow();
+
+            // Insert cells with form values
+            let cell1 = newRow.insertCell(0);
+            let cell2 = newRow.insertCell(1);
+            let cell3 = newRow.insertCell(2);
+            let cell4 = newRow.insertCell(3);
+            let cell5 = newRow.insertCell(4);
+            cell1.innerHTML = studentname;
+            cell2.innerHTML = email;
+            cell3.innerHTML = password;
+            cell4.innerHTML = phone;
+            cell5.innerHTML = age;
+
+            // Clear form inputs
+            document.getElementById("studentname").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("password").value = "";
+            document.getElementById("phone").value = "";
+            document.getElementById("age").value = "";
+        }
+         function deleteRecord(row) {
+        let rowIndex = row.parentNode.parentNode.rowIndex; // Get the index of the row to delete
+        document.getElementById("recordTable").deleteRow(rowIndex); // Delete the row from the table
+      }
+    </script>
+</div>
 </body>
+<!--
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+-->
 </html>
