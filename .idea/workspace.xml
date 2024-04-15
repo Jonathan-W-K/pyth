@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d00aa67a-cec5-4a08-b5c7-b7da7357812a" name="Changes" comment="latest update atleast as far as i have gone for now">
-      <change afterPath="$PROJECT_DIR$/registration_me/templates/table by the side.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/templates/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_me/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/registration_me/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -164,7 +156,7 @@
       <workItem from="1713169595799" duration="156000" />
       <workItem from="1713169807165" duration="2018000" />
       <workItem from="1713171885670" duration="2236000" />
-      <workItem from="1713174250110" duration="3139000" />
+      <workItem from="1713174250110" duration="4076000" />
     </task>
     <task id="LOCAL-00001" summary="latest update atleast as far as i have gone for now">
       <option name="closed" value="true" />
@@ -190,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712903644823</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="latest update atleast as far as i have gone for now">
+      <option name="closed" value="true" />
+      <created>1713177938207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713177938207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
